@@ -16,7 +16,7 @@ data.events.each do |key, event|
 %>
   <div itemprop="event" itemscope itemtype="http://schema.org/Event">
     <h2 id="<%= location[0] %>-in-<%= city %>" itemprop="name" content="Night of Support <%= title %>">
-      <a href="event.fbevent"><%= title %></a>
+      <a href="<%= event.fbevent %>"><%= title %></a>
     </h2>
 
     <div class="meta">

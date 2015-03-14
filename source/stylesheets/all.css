@@ -118,10 +118,11 @@ div[itemprop="description"] {
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, .4);
-  padding: 1em 1em 4em 1em;
+  background: #28586C;
+  padding: 4em 1em;
   overflow: auto;
 }
 div[itemprop="description"] iframe {
   width: 100%;
+  clear: both;
 }
