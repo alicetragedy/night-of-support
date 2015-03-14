@@ -15,14 +15,10 @@ data.events.each do |key, event|
    date  = DateTime.parse(event.date)
 %>
   <div itemprop="event" itemscope itemtype="http://schema.org/Event">
-    <h2 id="<%= location[0] %>-in-<%= city %>" itemprop="name" content="Night of Support <%= title %>"><%= title %></h2>
+    <h2 id="<%= location[0] %>-in-<%= city %>" itemprop="name" content="Night of Support <%= title %>">
+      <a href="event.fbevent"><%= title %></a>
+    </h2>
 
-    <div class="guests">
-      with:
-      <% event.guests.shuffle.each do |guest| %>
-      <%= guest.name -%>
-      <% end %>
-    </div>
     <div class="meta">
       <span itemprop="startDate" content="<%= event.date %>"><span>on</span> <%= date.strftime("<span class=\"m\">%b</span>, <span class=\"d\">#{date.day.ordinalize}</span>: <span class=\"t\">%l%P</span>") %></span>
 
@@ -35,6 +31,21 @@ data.events.each do |key, event|
         </div>
       </div>
     </div>
+
+    <div class="guests">
+      <div>with:</div>
+      <% event.guests.shuffle.each do |guest| %>
+      <div class="guest">
+        <img src="/images/events/<%= key %>/<%= guest.twitter %>.jpeg" />
+        <span class="name"><%= guest.name -%></span>
+        <span class="tagline"><%= md(guest.tagline) %></span>
+        <span class="bio"><%= md(guest.bio) %></span>
+        <a href="https://twitter.com/<%= guest.twitter %>">@<%= guest.twitter %> on twitter</a>
+        <a href="https://github.com/<%= guest.github %>"><%= guest.github %> on github</a>
+      </div>
+      <% end %>
+    </div>
+
     <div itemprop="description">
       <%= md(event.description) %>
     </div>

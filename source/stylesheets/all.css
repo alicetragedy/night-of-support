@@ -14,7 +14,7 @@ a:visited {
 }
 
 h1 {
-  margin-bottom: 1.2em;
+  padding: .5em;
 }
 
 div[itemprop="event"] {
@@ -26,9 +26,60 @@ h2[itemprop="name"] {
   margin: 0;
   background: rgba(0, 0, 0, .4);
 }
+
 div.guests {
+  position: relative;
+  width: auto;
+  overflow: auto;
   padding: 1em;
   background: rgba(0, 0, 0, .3);
+}
+div.guest {
+  float: left;
+  width: 21%;
+  padding: 2%;
+  display: inline-block;
+  text-align: center;
+}
+div.guest:hover {
+  background: #28586C;
+}
+div.guest img {
+  width: 80%;
+  border-radius: 15%;
+  border: 2px solid rgba(255, 255, 255, .7);
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+}
+div.guest span.name {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 1em;
+}
+div.guest span.tagline {
+  font-size: .75em;
+  opacity: .8;
+}
+
+div.guest a {
+  display: none;
+}
+
+div.guest span.tagline a {
+  display: block;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+div.guest span.bio {
+  display: none;
+  position: absolute;
+  top: 2.5em;
+  left: 0;
+  right: 0;
+  padding: 1.8em;
+  background: #28586C;
+}
+div.guest:hover span.bio {
+  display: block;
 }
 .meta {
   padding: 1em;
@@ -70,4 +121,7 @@ div[itemprop="description"] {
   background: rgba(0, 0, 0, .4);
   padding: 1em 1em 4em 1em;
   overflow: auto;
+}
+div[itemprop="description"] iframe {
+  width: 100%;
 }

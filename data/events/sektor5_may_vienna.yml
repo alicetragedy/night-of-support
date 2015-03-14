@@ -13,30 +13,34 @@ description: |
   Proudly sponsored & &#9829; by [sektor5](http://sektor5.at), [Github](https://github.com) & [Engine Yard](http://engineyard.com)
 
   To get into the mood whatch this clip brought to you by Zendesk:
-    <iframe src="https://fast.wistia.net/embed/iframe/f85814e0bb?fullscreenButton=false&playerColor=030303&version=v1&videoHeight=399&videoWidth=710&volumeControl=true&webkitallowfullscreen&mozallowfullscreen&allowfullscreen&fullscreenButton=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="625" height="378"></iframe>
+    <iframe src="https://fast.wistia.net/embed/iframe/f85814e0bb?fullscreenButton=false&playerColor=030303&version=v1&videoHeight=399&videoWidth=710&volumeControl=true&webkitallowfullscreen&mozallowfullscreen&allowfullscreen&fullscreenButton=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="800" height="420"></iframe>
 guests:
   - name: "Mike Adolphs"
-    tagline: "Support Engineering Manager at GitHub"
+    tagline: "Support Engineering Manager at [GitHub](http://github.com/)"
     twitter: fooforge
     github: fooforge
     website: http://fooforge.com
     bio: |
       He's been working on technical support for the GitHub Enterprise product and has become the Support Engineering Manager at GitHub
   - name: "Laura Gaetano"
-    tagline: "Customer Support at NTRY"
+    tagline: |
+      Customer Support<br/>
+      at [NTRY](https://ntry.at/)
     twitter: alicetragedy
     github: alicetragedy
     website: http://alicetragedy.org
     bio: |
       happy bunny at @ntryat & @bitstem. organiser of @RailsGirlsSoC, @viennarb, @pyladies_VIE. likes owls, NASA trivia, and ceramics. Taekwondo newbie.
   - name: "Marko Locher"
-    tagline: "Support Engineer at Codeship"
+    tagline: |
+      Support Engineer<br />
+      at [Codeship](https://codeship.com/)
     twitter: mlocher
     github: mlocher
     bio: |
       Managing infrastructure for Codeship, freaking out my friends with weird music as well as lots of volleyball and sailing!
   - name: "Sebastian Gräßl"
-    tagline: "Application Support Engineer at Engine Yard"
+    tagline: "Application Support Engineer at [Engine Yard](https://www.engineyard.com/)"
     twitter: bastilian
     github: bastilian
     website: http://bastilian.me
