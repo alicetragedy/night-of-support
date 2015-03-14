@@ -40,12 +40,11 @@
 #   activate :livereload
 # end
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def md(string)
+    Tilt['markdown'].new { string  }.render
+  end
+end
 
 set :css_dir, 'stylesheets'
 
