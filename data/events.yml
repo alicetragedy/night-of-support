@@ -1,0 +1,20 @@
+- at: "sektor5, Siebenbrunnengasse 44, 1050 Vienna, Austria"
+  date: "15-05-2015 18:00 GMT+1"
+  fbevent: "https://www.facebook.com/events/777797105660587/"
+  description: >
+    Customer Support and Support Engineering, two professional fields we get to hear way too little about. In a panel discussion on the 15th of May however Sebastian Gräßl invites Laura Gaetano (Customer Support at NTRY) and Mike Adolphs (Support at Github), Marko Locher (Support Engineer at Codeship) to talk about their experiences at sektor5.
+
+    Working for different types of companies they all face different types of customers. Laura is handling support with consumers on one service, Sebastian works with customers offering consumers services and  Marko as well as Mike throw support for 3rd party services in the mix.
+
+    Following an introduction by the panel members we’ll look at the demographics (who is calling/writting?, Geographic aspects, ...) to then move on to discuss toolery and answer your questions about support.
+
+    With this event Sebastian aims to highlight the importance of well functioning support and answer the question what good customer communication entails and prevent “Can I talk to your manager?”-situations…
+
+    Proudly sponsored by <3 Github & Engine Yard
+
+    To get into the mood: https://www.zendesk.com/resources/stuff-support-agents-say
+  guests:
+    - name: "Mike Adolphs"
+      tagline: "Support Lead at Github"
+      bio: >
+        TEST Bio

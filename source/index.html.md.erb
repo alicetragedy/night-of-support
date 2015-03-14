@@ -1,0 +1,15 @@
+---
+title: Night of Support
+---
+
+<h1>Night of Support</h1>
+
+<% data.events.each do |event| %>
+  <%= event.at %>
+  <%= event.date %>
+  <%= event.description %>
+
+  <% event.guests.each do |guest| %>
+  <%= guest.name -%>
+  <% end %>
+<% end %>
