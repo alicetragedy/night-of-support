@@ -1,0 +1,44 @@
+at: "sektor5, Siebenbrunnengasse 44, 1050 Vienna, Austria"
+date: "15-05-2015 18:00 GMT+1"
+fbevent: "https://www.facebook.com/events/777797105660587/"
+description: |
+  Customer Support and Support Engineering, two professional fields we get to hear way too little about. In a panel discussion on the 15th of May however **Sebastian Gräßl** _(Support Engineer at Engine Yard)_ invites **Laura Gaetano** _(Customer Support at NTRY)_, **Mike Adolphs** _(Support Engineering Manager at GitHub)_ and **Marko Locher** _(Support Engineer at Codeship)_ to talk about their experiences at sektor5.
+
+  Working for different types of companies they all face different types of customers. Laura is handling support with consumers on one service, Sebastian works with customers offering consumers services and  Marko as well as Mike throw support for 3rd party services in the mix.
+
+  Following an introduction by the panel members we’ll look at the demographics (who is calling/writting?, Geographic aspects, ...) to then move on to discuss toolery and answer your questions about support.
+
+  With this event Sebastian aims to highlight the importance of well functioning support and answer the question what good customer communication entails and prevent “Can I talk to your manager?”-situations…
+
+  Proudly sponsored & &#9829; by [sektor5](http://sektor5.at), [Github](https://github.com) & [Engine Yard](http://engineyard.com)
+
+  To get into the mood whatch this clip brought to you by Zendesk:
+    <iframe src="https://fast.wistia.net/embed/iframe/f85814e0bb?fullscreenButton=false&playerColor=030303&version=v1&videoHeight=399&videoWidth=710&volumeControl=true&webkitallowfullscreen&mozallowfullscreen&allowfullscreen&fullscreenButton=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="625" height="378"></iframe>
+guests:
+  - name: "Mike Adolphs"
+    tagline: "Support Engineering Manager at GitHub"
+    twitter: fooforge
+    github: fooforge
+    website: http://fooforge.com
+    bio: |
+      He's been working on technical support for the GitHub Enterprise product and has become the Support Engineering Manager at GitHub
+  - name: "Laura Gaetano"
+    tagline: "Customer Support at NTRY"
+    twitter: alicetragedy
+    github: alicetragedy
+    website: http://alicetragedy.org
+    bio: |
+      happy bunny at @ntryat & @bitstem. organiser of @RailsGirlsSoC, @viennarb, @pyladies_VIE. likes owls, NASA trivia, and ceramics. Taekwondo newbie.
+  - name: "Marko Locher"
+    tagline: "Support Engineer at Codeship"
+    twitter: mlocher
+    github: mlocher
+    bio: |
+      Managing infrastructure for Codeship, freaking out my friends with weird music as well as lots of volleyball and sailing!
+  - name: "Sebastian Gräßl"
+    tagline: "Application Support Engineer at Engine Yard"
+    twitter: bastilian
+    github: bastilian
+    website: http://bastilian.me
+    bio: |
+      Social network addict; information junkie; part time party-goer; working at @EngineYard; music freak; i'm a pirate.
