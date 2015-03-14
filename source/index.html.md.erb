@@ -15,7 +15,7 @@ data.events.each do |key, event|
    date  = DateTime.parse(event.date)
 %>
   <div itemprop="event" itemscope itemtype="http://schema.org/Event">
-    <h2 id="<%= location[0] %>-in-<%= city %>" content="Night of Support <%= title %>"><%= title %></h2>
+    <h2 id="<%= location[0] %>-in-<%= city %>" itemprop="name" content="Night of Support <%= title %>"><%= title %></h2>
 
     <div class="guests">
       with:
@@ -23,7 +23,7 @@ data.events.each do |key, event|
       <%= guest.name -%>
       <% end %>
     </div>
-    <span itemprop="startDate" content="<%= event.at %>">on <%= date.strftime("%b, #{date.day.ordinalize}, %l%P") %></span>
+    <span itemprop="startDate" content="<%= event.date %>">on <%= date.strftime("%b, #{date.day.ordinalize}, %l%P") %></span>
 
     <div itemprop="location" itemscope itemtype="http://schema.org/Place">
       <span itemprop="name"><%= location[0] %></span>
