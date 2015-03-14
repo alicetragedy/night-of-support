@@ -1,15 +1,40 @@
 ---
 title: Night of Support
 ---
-
 <h1>Night of Support</h1>
 
-<% data.events.each do |event| %>
-  <%= event.at %>
-  <%= event.date %>
-  <%= event.description %>
+<%
+idx = 0
 
-  <% event.guests.each do |guest| %>
-  <%= guest.name -%>
-  <% end %>
+data.events.each do |key, event|
+
+   location = event.at.to_s.split(',')
+   city  = location[2].split(" ")[1]
+   zip   = location[2].split(" ")[0]
+   title = "##{idx+1} in #{city}"
+   date  = DateTime.parse(event.date)
+%>
+  <div itemprop="event" itemscope itemtype="http://schema.org/Event">
+    <h2 id="<%= location[0] %>-in-<%= city %>" content="Night of Support <%= title %>"><%= title %></h2>
+
+    <div class="guests">
+      with:
+      <% event.guests.shuffle.each do |guest| %>
+      <%= guest.name -%>
+      <% end %>
+    </div>
+    <span itemprop="startDate" content="<%= event.at %>">on <%= date.strftime("%b, #{date.day.ordinalize}, %l%P") %></span>
+
+    <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+      <span itemprop="name"><%= location[0] %></span>
+
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress"><%= location[1] %></span>,
+        <span itemprop="postalCode"><%= zip %></span> <span itemprop="addressLocality"><%= city %></span>
+      </div>
+    </div>
+    <div itemprop="description">
+      <%= md(event.description) %>
+    </div>
+  </div>
 <% end %>
