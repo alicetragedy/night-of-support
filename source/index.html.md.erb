@@ -23,14 +23,16 @@ data.events.each do |key, event|
       <%= guest.name -%>
       <% end %>
     </div>
-    <span itemprop="startDate" content="<%= event.date %>">on <%= date.strftime("%b, #{date.day.ordinalize}, %l%P") %></span>
+    <div class="meta">
+      <span itemprop="startDate" content="<%= event.date %>"><span>on</span> <%= date.strftime("<span class=\"m\">%b</span>, <span class=\"d\">#{date.day.ordinalize}</span>: <span class=\"t\">%l%P</span>") %></span>
 
-    <div itemprop="location" itemscope itemtype="http://schema.org/Place">
-      <span itemprop="name"><%= location[0] %></span>
+      <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <span itemprop="name"><%= location[0] %></span>
 
-      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-        <span itemprop="streetAddress"><%= location[1] %></span>,
-        <span itemprop="postalCode"><%= zip %></span> <span itemprop="addressLocality"><%= city %></span>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress"><%= location[1] %></span>,
+          <span itemprop="postalCode"><%= zip %></span> <span itemprop="addressLocality"><%= city %></span>
+        </div>
       </div>
     </div>
     <div itemprop="description">
