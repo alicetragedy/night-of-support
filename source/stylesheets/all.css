@@ -129,3 +129,7 @@ div[itemprop="description"] iframe {
   width: 100%;
   clear: both;
 }
+footer {
+  font-size: .8em;
+  padding: 1em;
+}
