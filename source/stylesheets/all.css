@@ -1,9 +1,9 @@
 body {
   font-family: 'Droid Sans', sans-serif;
   line-height: 1.5em;
-  background: #4394B6;
   color: #FFF;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+  background-color: #4394B6;
 }
 a,
 a:link,
@@ -14,7 +14,10 @@ a:visited {
 }
 
 h1 {
-  padding: .5em;
+  padding: 2em 1.5%;
+  margin: 0;
+  background: url(/images/background.png) 100% 50% #4394B6 no-repeat;
+  width: 46%;
 }
 
 div[itemprop="event"] {

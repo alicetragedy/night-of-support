@@ -10,10 +10,16 @@ description: |
 
   With this event Sebastian aims to highlight the importance of well functioning support and answer the question what good customer communication entails and prevent “Can I talk to your manager?”-situations…
 
-  Proudly sponsored & &#9829; by [sektor5](http://sektor5.at), [GitHub](https://github.com) & [Engine Yard](http://engineyard.com)
-
   To get into the mood whatch this clip brought to you by Zendesk:
     <iframe src="https://fast.wistia.net/embed/iframe/f85814e0bb?fullscreenButton=false&playerColor=030303&version=v1&videoHeight=399&videoWidth=710&volumeControl=true&webkitallowfullscreen&mozallowfullscreen&allowfullscreen&fullscreenButton=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="800" height="420"></iframe>
+
+  <div style="text-align:center; line-height: 2.5em;">
+    Proudly sponsored & &#9829; by<br />
+    <a href="https://engineyard.com"><img src="/images/events/sektor5_may_vienna/engine-yard.svg" width="250" /></a><br />
+    <a href="http://sektor5.at"><img src="/images/events/sektor5_may_vienna/sektor5.jpg" /></a>
+    <a href="https://github.com"><img src="/images/events/sektor5_may_vienna/github.png" /></a>
+  </div>
+
 guests:
   - name: "Mike Adolphs"
     tagline: "Support Engineering Manager at [GitHub](http://github.com/)"
